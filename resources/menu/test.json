@@ -1,0 +1,122 @@
+[
+    {
+        "url": "app/email",
+        "name": "Tableau de bord",
+        "icon": "menu-icon ti ti-layout-dashboard",
+        "slug": "app-email"
+    },
+    {
+        "menuHeader": "Suscriptions"
+    },
+    {
+        "url": "app/email",
+        "name": "Tableau de bord",
+        "icon": "menu-icon tf-icons ti ti-smart-home",
+        "slug": "app-email"
+    },
+    {
+        "menuHeader": "Urgences Médicales"
+    },
+    {
+        "url": "app/email",
+        "name": "Alerte d'urgence",
+        "icon": "menu-icon tf-icons ti ti-smart-home",
+        "slug": "app-email"
+    },
+    {
+        "url": "app/email",
+        "name": "Téléconsultation",
+        "icon": "menu-icon tf-icons ti ti-smart-home",
+        "slug": "app-email"
+    }, {
+    "url": "app/email",
+    "name": "Orientation",
+    "icon": "menu-icon tf-icons ti ti-smart-home",
+    "slug": "app-email"
+},
+    {
+        "url": "app/email",
+        "name": "transport médical",
+        "icon": "menu-icon tf-icons ti ti-smart-home",
+        "slug": "app-email"
+    },
+    {
+        "menuHeader": "Sinistre"
+    },
+    {
+        "url": "app/email",
+        "name": "Prestations médicales",
+        "icon": "menu-icon tf-icons ti ti-smart-home",
+        "slug": "app-email"
+    }, {
+    "url": "app/email",
+    "name": "Validation des prestations",
+    "icon": "menu-icon tf-icons ti ti-smart-home",
+    "slug": "app-email"
+}, {
+    "url": "app/email",
+    "name": "Traitement des factures et paiements",
+    "icon": "menu-icon tf-icons ti ti-smart-home",
+    "slug": "app-email"
+},{
+    "url": "app/email",
+    "name": " Remboursement des frais avancés",
+    "icon": "menu-icon tf-icons ti ti-smart-home",
+    "slug": "app-email"
+}
+]
+
+
+
+{
+    "menuHeader": "Prestations et Sinistres"
+},
+{
+"url": "#",
+"name": "Prestations",
+"icon": "menu-icon ti ti-users",
+"slug": [
+]
+},
+{
+"url": "#",
+"name": "Sinistres",
+"icon": "menu-icon ti ti-users",
+"slug": [
+
+]
+},
+{
+"menuHeader": "Urgences Médicales"
+},
+{
+"url": "#",
+"name": "Alerte d'urgence",
+"icon": "menu-icon ti ti-users",
+"slug": [
+]
+},
+{
+"url": "#",
+"name": "Téléconsultation",
+"icon": "menu-icon ti ti-users",
+"slug": [
+
+]
+},
+{
+"url": "#",
+"name": "Orientation",
+"icon": "menu-icon ti ti-users",
+"slug": [
+
+]
+},
+{
+"url": "#",
+"name": "Transport médical",
+"icon": "menu-icon ti ti-users",
+"slug": [
+
+]
+},

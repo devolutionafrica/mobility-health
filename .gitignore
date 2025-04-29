@@ -1,0 +1,62 @@
+# Laravel specific
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+.env
+.env.backup
+.env.production
+.phpunit.result.cache
+
+# Laravel compiled views
+/storage/framework/views/*.php
+
+# Laravel logs
+/storage/logs/*.log
+
+# Laravel cache
+/bootstrap/cache/*.php
+
+# IDE specific files
+/.idea
+/.vscode
+/.fleet
+/.phpstorm.meta.php
+_ide_helper.php
+_ide_helper_models.php
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Composer
+composer.phar
+
+# NPM/Yarn
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+
+# Testing
+.phpunit.cache
+
+# Homestead
+Homestead.json
+Homestead.yaml
+
+# Docker
+docker-compose.override.yml
+
+# Project specific
+/public/build
+#IDE specific files
+/.idea
+/.vscode
+/.vagrant
+.phpstorm.meta.php
+_ide_helper.php
+_ide_helper_models.php
+.DS_Store
+# Git token
+.token-git

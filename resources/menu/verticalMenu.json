@@ -1,0 +1,198 @@
+{
+    "menu": [
+        {
+            "url": "/dashboard",
+            "name": "Tableau de bord",
+            "icon": "menu-icon ti ti-layout-dashboard",
+            "slug": "dashboard.index"
+        },
+        {
+            "menuHeader": "Utilisateurs"
+        },
+        {
+            "url": "/users/admin",
+            "name": "Administrateurs",
+            "icon": "menu-icon ti ti-user-hexagon",
+            "slug": [
+                "users-admin",
+                "users-admin-create",
+                "users-admin-edit",
+                "user-password-edit"
+            ]
+        },
+        {
+            "name": "Intervenants",
+            "icon": "menu-icon ti ti-user-pentagon",
+            "slug": [
+                "users-referent-doctor",
+                "users-health-partner",
+                "users-referent-doctor-create",
+                "users-health-partner-create",
+                "users-referent-doctor-edit",
+                "users-health-partner-edit"
+            ],
+            "submenu": [
+                {
+                    "url": "/users/referent-doctor",
+                    "name": "Médecin référent",
+                    "slug": [
+                        "users-referent-doctor",
+                        "users-referent-doctor-create",
+                        "users-referent-doctor-edit"
+                    ]
+                },
+                {
+                    "url": "/users/health-partner",
+                    "name": "Partenaire de santé",
+                    "slug": [
+                        "users-health-partner",
+                        "users-health-partner-create",
+                        "users-health-partner-edit"
+                    ]
+                }
+            ]
+        },
+        {
+            "url": "/client/customers",
+            "name": "Clients",
+            "icon": "menu-icon ti ti-users-group",
+            "slug": [
+                "client-customers",
+                "customer-subscription"
+            ]
+        },
+        {
+            "url": "/client/prospects",
+            "name": "Prospects",
+            "icon": "menu-icon ti ti-users",
+            "slug": [
+                "client-prospects"
+            ]
+        },
+        {
+            "menuHeader": "Souscrire"
+        },
+        {
+            "url": "/subscriptions",
+            "name": "Souscriptions",
+            "icon": "menu-icon ti ti-tags",
+            "slug": [
+                "subscriptions"
+            ]
+        },
+        {
+            "menuHeader": "Prestations et Sinistres"
+        },
+        {
+            "url": "/under/construction",
+            "name": "Prestations (en cours)",
+            "icon": "menu-icon ti ti-air-conditioning",
+            "slug": [
+            ]
+        },
+        {
+            "url": "/under/construction",
+            "name": "Sinistres (en cours)",
+            "icon": "menu-icon ti ti-clipboard-data",
+            "slug": [
+
+            ]
+        },
+        {
+            "menuHeader": "Urgences Médicales"
+        },
+        {
+            "url": "/under/construction",
+            "name": "Alerte d'urgence (en cours)",
+            "icon": "menu-icon ti ti-bell-plus",
+            "slug": [
+            ]
+        },
+        {
+            "url": "/under/construction",
+            "name": "Téléconsultation (en cours)",
+            "icon": "menu-icon ti ti-first-aid-kit",
+            "slug": [
+
+            ]
+        },
+        {
+            "url": "/under/construction",
+            "name": "Orientation (en cours)",
+            "icon": "menu-icon ti ti-building-hospital",
+            "slug": [
+
+            ]
+        },
+        {
+            "url": "/under/construction",
+            "name": "Transport médical (en cours)",
+            "icon": "menu-icon ti ti-ambulance",
+            "slug": [
+
+            ]
+        },
+        {
+            "menuHeader": "Autres"
+        },
+        {
+            "name": "Resource",
+            "icon": "menu-icon ti ti-stack-2",
+            "slug": [
+                "questions",
+                "questions-create",
+                "questions-edit",
+                "insurance-policies",
+                "insurance-policy-create",
+                "insurance-policy-edit",
+                "insurance-policy-show",
+                "questions-group-create",
+                "questions-group-edit",
+                "geographic-areas",
+                "geographic-area-create",
+                "geographic-area-edit",
+                "insurance-policy-package-edit",
+                "insurance-policy-package-create"
+            ],
+            "submenu": [
+                {
+                    "url": "/questions",
+                    "name": "Questions mediales",
+                    "slug": [
+                        "questions",
+                        "questions-create",
+                        "questions-edit",
+                        "questions-group-create",
+                        "questions-group-edit"
+                    ]
+                },
+                {
+                    "url": "/insurance-policies",
+                    "name": "Formules",
+                    "slug": [
+                        "insurance-policies",
+                        "insurance-policy-create",
+                        "insurance-policy-edit",
+                        "insurance-policy-show",
+                        "insurance-policy-package-edit",
+                        "insurance-policy-package-create"
+                    ]
+                },{
+                    "url": "/geographic-areas",
+                    "name": "Zone géographique",
+                    "slug": [
+                        "geographic-areas",
+                        "geographic-area-create",
+                        "geographic-area-edit"
+                    ]
+                }
+            ]
+        },
+        {
+            "url": "/mobile/app",
+            "name": "Application mobile",
+            "icon": "menu-icon ti ti-device-mobile",
+            "slug": "mobile.app"
+        }
+    ]
+}

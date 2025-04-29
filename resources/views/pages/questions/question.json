@@ -1,0 +1,30 @@
+[
+    {
+        "label": "Avez-vous actuellement ou avez-vous déjà souffert des maladies suivantes :",
+        "type": "multiple",
+        "response": "Hypertension artérielle,dnfdf,dfjdk"
+    },
+    {
+        "label": "Avez-vous actuellement ou avez-vous déjà souffert des maladies suivantes :",
+        "type": "text",
+        "response": ""
+    },
+    {
+        "label": "Avez-vous actuellement ou avez-vous déjà souffert des maladies suivantes :",
+        "type": "option",
+        "response": [
+            {
+                "label": "Oui",
+                "checked": false,
+                "type": "text|radio",
+                "child": "Oui|Non"
+            },
+            {
+                "label": "Non",
+                "checked": false,
+                "type": "text|radio",
+                "child": "Oui|Non"
+            }
+        ]
+    }
+]
